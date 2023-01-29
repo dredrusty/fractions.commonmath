@@ -31,14 +31,14 @@ public static class CommonMath
     /// <summary>
     /// Find least common multiple LCM (НОК).
     /// </summary>
-    /// <param name="numerator"></param>
-    /// <param name="denominator"></param>
+    /// <param name="value1"></param>
+    /// <param name="value2"></param>
     /// <returns>Returns LCM (НОК)</returns>
-    public static int GetLCM(int numerator, int denominator)
+    public static int GetLCM(int value1, int value2)
     {
-        numerator = Math.Abs(numerator);
-        denominator = Math.Abs(denominator);
+        value1 = Math.Abs(value1);
+        value1 = Math.Abs(value1);
 
-        return (numerator * denominator) / GetGCD(numerator, denominator);
+        return (value1 * value2) / GetGCD(value1, value2);
     }
 }
