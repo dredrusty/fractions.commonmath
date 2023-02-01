@@ -37,7 +37,7 @@ public static class CommonMath
     public static int GetLCM(int value1, int value2)
     {
         value1 = Math.Abs(value1);
-        value1 = Math.Abs(value1);
+        value2 = Math.Abs(value2);
 
         return (value1 * value2) / GetGCD(value1, value2);
     }
