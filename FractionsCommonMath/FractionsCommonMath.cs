@@ -3,7 +3,7 @@
 public static class CommonMath
 {
     /// <summary> 
-    /// Find greatest common divider GCD (НОД).
+    /// Find greatest common divider GCD (НОД) for two values.
     /// </summary>
     /// <param name="value1"></param>
     /// <param name="value2"></param>
@@ -29,7 +29,7 @@ public static class CommonMath
     }
 
     /// <summary>
-    /// Find least common multiple LCM (НОК).
+    /// Find least common multiple LCM (НОК) for two values.
     /// </summary>
     /// <param name="value1"></param>
     /// <param name="value2"></param>
