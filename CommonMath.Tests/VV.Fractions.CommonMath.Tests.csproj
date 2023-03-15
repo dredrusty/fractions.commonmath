@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FractionsCommonMath\VV.Fractions.CommonMath.csproj" />
+    <ProjectReference Include="..\CommonMath\VV.Fractions.CommonMath.csproj" />
   </ItemGroup>
 
 </Project>
