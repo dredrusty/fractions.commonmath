@@ -1,5 +1,8 @@
 ﻿namespace Fractions;
 
+/// <summary>
+/// Implements finding GCD and LCM. Required for Fraction.CommonMath.
+/// </summary>
 public static class CommonMath
 {
     /// <summary> 
