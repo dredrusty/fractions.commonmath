@@ -6,11 +6,11 @@
 public static class CommonMath
 {
     /// <summary> 
-    /// Find greatest common divider GCD (НОД) for two values.
+    /// Find greatest common divider GCD (greatest common divisor) for two int values.
     /// </summary>
     /// <param name="value1"></param>
     /// <param name="value2"></param>
-    /// <returns> Returns GCD (НОД). </returns>
+    /// <returns> Returns GCD. </returns>
     public static int GetGCD(int value1, int value2)
     {
         value1 = Math.Abs(value1);
@@ -32,11 +32,11 @@ public static class CommonMath
     }
 
     /// <summary>
-    /// Find least common multiple LCM (НОК) for two values.
+    /// Find least common multiple LCM (least common multiple) for two int values.
     /// </summary>
     /// <param name="value1"></param>
     /// <param name="value2"></param>
-    /// <returns>Returns LCM (НОК)</returns>
+    /// <returns>Returns LCM.</returns>
     public static int GetLCM(int value1, int value2)
     {
         value1 = Math.Abs(value1);
